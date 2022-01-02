@@ -60,12 +60,12 @@ const AddExpenseForm = () => {
 						onChange={(event) => setCost(event.target.value)}
 					></input>
 				</div>
-				<div className='col-sm'>
+			</div>
+				<div className='d-grid gap-2 col-6 mx-auto'>
 					<button type='submit' className='btn btn-primary mt-3'>
 						Save
 					</button>
 				</div>
-			</div>
 		</form>
 	);
 };

@@ -5,6 +5,7 @@ import { AppContext } from '../context/AppContext';
 const ExpenseList = () => {
     const {expenses} = useContext(AppContext)
 
+    console.log(expenses)
     return (
 		<ul className='list-group'>
 			{expenses.map((expense) => (

@@ -29,9 +29,9 @@ const App = () => {
                         <ExpenseList />
                     </div>
                 </div>
-                <h3 className='mt-3'>Add Expense</h3>
+                <h3 className='mt-5'>Add Expense</h3>
                 <div className='row mt-3'>
-                    <div className='col-sm'>
+                    <div className='col-sm d-flex justify-content-center'>
                         <AddExpenseForm />
                     </div>
                 </div>
